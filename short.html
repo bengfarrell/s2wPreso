@@ -326,17 +326,6 @@
                 </section>
 
                 <section>
-                    <h2>What does these cameras do?</h2>
-                    <h3>Rendering a point cloud</h3>
-                    <p>
-                        <img src="./images/Kinect-1-point-cloud-example.jpg"/>
-                    </p>
-                    <p>
-                        Volumetric Pixels or Voxels
-                    </p>
-                </section>
-
-                <section>
                     <h2>Infrared Beams</h2>
                     <h3>Seeing in the Dark</h3>
                     <p>
@@ -428,18 +417,9 @@
                 </section>
 
                 <section>
-                    <h2>Why Do Gestures and Skeleton Tracking?</h2>
-                    <ul>
-                        <li>It's COOL!</li>
-                        <li>Social Interfaces in a Physical Space</li>
-                        <li>Hygenic (unlike touchscreens)</li>
-                        <li>Vandalism Proof</li>
-                    </ul>
-                </section>
-
-                <section>
                     <h2>Uses</h2>
                     <ul>
+                        <li>It's COOL!</li>
                         <li>10 foot interfaces</li>
                         <li>Innovative games</li>
                         <li>Interacting with public spaces</li>
@@ -454,7 +434,7 @@
                 </section>
 
                 <section>
-                    <h2>Try not to Replicate the GUI</h2>
+                    <h2>Don't Repeat History</h2>
                     <img src="./images/bravenuiworld.jpg"/>
                     <p>
                         by Daniel Wigdor and Dennis Wixon
@@ -470,11 +450,9 @@
                     <h2>Sales</h2>
                     <ul>
                         <li>Released 1989</li>
-                        <li>100,000 units sold</li>
-                        <li>$88M in sales</li>
                         <li>Widely regarded as failure</li>
                         <li>2 Powerglove games were made (they could be played with standard controller)</li>
-                        <li>No UX innovation on other games - just an akward controller</li>
+                        <li>No UX innovation on other games - just an awkward controller</li>
                     </ul>
                     <br /><br />
                     <h3>Why Bother?</h3>
@@ -504,24 +482,6 @@
                 </section>
 
                 <section>
-                    <h2>The GUI</h2>
-                    <h3>We know how to use it because we've learned</h3>
-                    <img src="./images/imagebrowser.png"/>
-                </section>
-
-                <section>
-                    <h2>Are We Killing the GUI?</h2>
-                    <h3>NO!!!</h3>
-                    <ul>
-                        <li>CLIs are alive and well decades after the GUI</li>
-                        <li>The mouse and keyboard show no sign of going away</li>
-                        <li>New User Interfaces are additive - not replacements</li>
-                        <li>New User Interfaces expand interfaces to new users and scenarios</li>
-                    </ul>
-                    <img src="./images/cli.png"/>
-                </section>
-
-                <section>
                     <h2>NUI Rules</h2>
                     <h3>from Kinect for Windows Human Interface Guidelines</h3>
                     <ul>
@@ -545,31 +505,6 @@
                 </section>
 
                 <section>
-                    <h2>Visual Feedback</h2>
-                    <h3>from Kinect for Windows Human Interface Guidelines</h3>
-
-                    <ul>
-                        <li>How many people can it see?</li>
-                        <li>Am I in view?</li>
-                        <li>How much of me can it see?</li>
-                        <li>When and where can I gesture?</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>Gesture Guidlines</h2>
-                    <h3>from Kinect for Windows Human Interface Guidelines</h3>
-
-                    <ul>
-                        <li>Body movements that don't relate to a task are harder to remember</li>
-                        <li>Don't swipe up to scroll left</li>
-                        <li>If swipe left to scroll left, make sure you swipe right to scroll right</li>
-                        <li>Keep cognitive load low.  Users can typically remember about 6 gestures</li>
-                        <li>Children generally make more erratic and quicker movements than adults</li>
-                    </ul>
-                </section>
-
-                <section>
                     <h2>Gesture Guidlines</h2>
                     <h3>My Guidelines</h3>
 
@@ -577,69 +512,6 @@
                         <li>Create a good balance between intuitive and intentional</li>
                         <li>Visualize gesture progress for users</li>
                         <li>My plugin (NuiMotion) gives progress steps for gestures </li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>Swipe Left Example</h2>
-                    <ul>
-                        <li>Start Gesture by Raising right hand above waist, but below head, and not too close to body (check that hand is above elbow)</li>
-                        <li>Gesture is in progress as hand goes from right to left</li>
-                        <li>Cancel gesture if hand dips below waist or above head</li>
-                        <li>Cancel gesture if too slow or fast</li>
-                    </ul>
-
-                    <pre><code contenteditable>
-                        {
-                            gestureType: "SWIPE_LEFT",
-                            hand: "left_hand",
-                            step: "GESTURE_COMPLETE"
-                        }
-                    </code></pre>
-                </section>
-
-                <section>
-                    <h2>I got your back with some constants...</h2>
-					<pre><code contenteditable>
-nuimotion.Events.Gestures.Progress =
-        { start: "GESTURE_START",
-          complete: "GESTURE_COMPLETE",
-          cancelled: "GESTURE_CANCELLED" };
-
-nuimotion.Events.Gestures.Swipe.SWIPE = "SWIPE_GESTURE";
-
-nuimotion.Events.Gestures.Swipe.types =
-        {left: "SWIPE_LEFT",
-         right: "SWIPE_RIGHT",
-         up: "SWIPE_UP",
-         down: "SWIPE_DOWN"};
-
-nuimotion.Events.Gestures.Wave.WAVE = "WAVE_GESTURE";
-nuimotion.Events.Gestures.Wave.types =
-        {hand: "WAVE_HAND"};
-                    </code></pre>
-				</section>
-
-                <section>
-                    <h2>One last note...</h2>
-                    <h3>Speech Interaction</h3>
-
-                    <ul>
-                        <li>The Kinect SDK provides full support</li>
-                        <li>Our solution does not :(</li>
-                        <li>But wait! We're on the web!</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>Web Speech API in Chrome 25</h2>
-                    <h3>Completely in the Browser, no Node needed</h3>
-
-                    <ul>
-                        <li>Captures your voice</li>
-                        <li>Sends a stream of data to Google's servers</li>
-                        <li>Sends back interim results and final results</li>
-                        <li>Permission is required, SSL is the only way to give permanent permission</li>
                     </ul>
                 </section>
 
@@ -652,7 +524,6 @@ nuimotion.Events.Gestures.Wave.types =
                         <li>Make a desktop application with App.js or Node Webkit</li>
                         <li>OpenNI projects a $15b 3D sensing industry by 2018</li>
                         <li>Tiny Primensense Carmine sensors are being sold in bulk to device manufacturers</li>
-                        <li>Covii expects a huge 3D sensing market in 3 years time</li>
                         <li>Lets keep it within our reach!</li>
                     </ul>
                 </section>
