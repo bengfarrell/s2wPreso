@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="75b50e31-61c9-4667-b0d7-63fe8cbe306e" name="Default" comment="" />
+    <list default="true" id="75b50e31-61c9-4667-b0d7-63fe8cbe306e" name="Default" comment="" />
     <ignored path="s2wPreso.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="75b50e31-61c9-4667-b0d7-63fe8cbe306e" time="1368818444327" ignored="false" />
@@ -14,7 +14,7 @@
     <file path="$PROJECT_DIR$/../node-sweatintotheweb-examples/node_modules/nuimotion/src/binding.gyp" changelist="75b50e31-61c9-4667-b0d7-63fe8cbe306e" time="1367975501472" ignored="false" />
     <file path="$PROJECT_DIR$/../node-sweatintotheweb-examples/node_modules/nuimotion/src/Main.cpp" changelist="75b50e31-61c9-4667-b0d7-63fe8cbe306e" time="1367976589217" ignored="false" />
     <file path="$PROJECT_DIR$/../node-sweatintotheweb-examples/node_modules/nuimotion/package.json" changelist="75b50e31-61c9-4667-b0d7-63fe8cbe306e" time="1367978365155" ignored="false" />
-    <file path="/short.html" changelist="75b50e31-61c9-4667-b0d7-63fe8cbe306e" time="1369697262612" ignored="false" />
+    <file path="/short.html" changelist="75b50e31-61c9-4667-b0d7-63fe8cbe306e" time="1369969735864" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <file leaf-file-name="short.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/short.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="436" column="44" selection-start="16839" selection-end="16839" vertical-scroll-proportion="3.6203208">
+            <state line="525" column="38" selection-start="20874" selection-end="20874" vertical-scroll-proportion="0.46332738">
               <folding />
             </state>
           </provider>
@@ -135,7 +135,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,6 +155,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,12 +218,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1940532" sideWeight="0.9552" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1940532" sideWeight="0.9552" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -406,7 +406,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/short.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="436" column="44" selection-start="16839" selection-end="16839" vertical-scroll-proportion="3.6203208">
+        <state line="525" column="38" selection-start="20874" selection-end="20874" vertical-scroll-proportion="0.46332738">
           <folding />
         </state>
       </provider>
